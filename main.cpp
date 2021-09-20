@@ -52,6 +52,7 @@ std::string Retrieve_IPv4_str() {
 	WSACleanup();
 	return IPv4_Address_str;
 }
+
 int main(void) {
 	std::cout << "IPv4: " << Retrieve_IPv4_str() << "\n";
 	system("pause");
